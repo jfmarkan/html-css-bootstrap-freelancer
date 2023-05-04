@@ -1,0 +1,28 @@
+body{
+    color: #FFFFFF;
+}
+
+section:nth-of-type(even){
+    color: #333333;
+}
+
+.my_green-bg{
+    background-color: #1abc9c;
+}
+
+.my_grey-bg{
+    background-color: #3a546d;
+}
+
+.my_petrol-bg{
+    background-color: #2c3e50;
+}
+
+#start img{
+    width: 250px;
+}
+
+img{
+    width: 100%;
+    border-radius: 20px;
+}
