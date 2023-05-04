@@ -20,7 +20,7 @@
                     <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
                         <ul class="navbar-nav">
                             <li class="nav-item fw-semibold">
-                                <a class="nav-link active" aria-current="page" href="#portfolio">PORTFOLIO</a>
+                                <a class="nav-link" href="#portfolio">PORTFOLIO</a>
                             </li>
                             <li class="nav-item fw-semibold">
                                 <a class="nav-link" href="#about">ABOUT</a>
@@ -38,8 +38,8 @@
             <section id="start" class="my_green-bg py-5">
                 <div class="container">
                     <div class="row justify-content-center text-center">
-                        <img src="img/avatar.svg" alt="IMG Avatar">
-                        <h1>START BOOTSTRAP</h1>
+                        <img src="img/avatar.svg" alt="IMG Avatar" class="mb-3">
+                        <h1 class="fw-semibold">START BOOTSTRAP</h1>
                         <div class="row my-2">
                             <div class="col d-flex justify-content-center">
                                 <div class="my_h-line align-self-center mx-2"></div>
@@ -59,7 +59,7 @@
             </section>
             <section id="portfolio" class="py-5">
                 <div class="container text-center">
-                    <h2>PORTFOLIO</h2>
+                    <h1 class="fw-semibold">PORTFOLIO</h2>
                     <div class="row mt-3 mb-5">
                         <div class="col d-flex justify-content-center">
                             <div class="my_h-line align-self-center mx-2"></div>
@@ -91,7 +91,7 @@
             </section>
             <section id="about" class="py-5 my_green-bg">
                 <div class="container">
-                    <h2>ABOUT</h2>
+                    <h1 class="fw-semibold text-center">ABOUT</h2>
                     <div class="row mt-3 mb-5">
                         <div class="col d-flex justify-content-center">
                             <div class="my_h-line align-self-center mx-2"></div>
@@ -100,13 +100,13 @@
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col-12 col-md-6">
+                        <div class="offset-1 col-10 col-md-5">
                             <p>Freenlancer is a free Bootstrap theme created by Start Bootstrap. The download includes the complete source files including HYML, CSS, and JavaScript as well as optional Less stylesheets for easy customization.</p>
                         </div>
-                        <div class="col">
+                        <div class="offset-1 col-10 offset-md-0 col-md-5">
                             <p>Wether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point!</p>
                         </div>
-                        <div class="col-12">
+                        <div class="col-12 pt-5 text-center">
                             <button class="btn btn-outline-light">
                                 <i class="fa-solid fa-download"></i>
                                 Download
@@ -117,7 +117,7 @@
             </section>
             <section id="contact" class="py-5">
                 <div class="container">
-                    <h2>CONTACT ME</h2>
+                    <h1 class="fw-semibold text-center">CONTACT ME</h2>
                     <div class="row mt-3 mb-5">
                         <div class="col d-flex justify-content-center">
                             <div class="my_h-line align-self-center mx-2"></div>
@@ -125,7 +125,7 @@
                             <div class="my_h-line align-self-center mx-2"></div>
                         </div>
                     </div>
-                    <form action="">
+                    <form action="" class="offset-1 col-10">
                         <div class="form-floating mb-3">
                             <input type="text" class="form-control rounded-0 border-0 border-bottom" id="floatingName" placeholder="Name">
                             <label for="floatingName">Name</label>
@@ -139,7 +139,7 @@
                             <label for="floatingPhone">Phone</label>
                         </div>
                         <div class="form-floating mb-3">
-                            <textarea class="form-control rounded-0 border-0 border-bottom" id="floatingMessage" placeholder="Message" rows="10"></textarea>
+                            <textarea class="form-control rounded-0 border-0 border-bottom" id="floatingMessage" placeholder="Message" rows="5"></textarea>
                             <label for="floatingMessage">Message</label>
                         </div>
                         <button type="submit" class="btn my_btn-form fw-semibold">Send</button>
@@ -149,16 +149,40 @@
         </main>
         
         <footer>
-            <section class="my_grey-bg">
-                <div class="container">
+            <section class="py-5 my_grey-bg">
+                <div class="container text-center">
                     <div class="row">
-                        <div class="col"></div>
-                        <div class="col"></div>
-                        <div class="col"></div>
+                        <div class="col-12 col-md-4 my-3">
+                            <h5>LOCATION</h5>
+                            <p class="fw-semibold">2215 John Daniel Drive Clark, MO 54243</p>
+                        </div>
+                        <div class="col-12 col-md-4 my-3">
+                            <h5>ARROUND THE WEB</h5>
+                            <div class="row justify-content-center">
+                                <div class="border border-1 rounded-circle my_social-media mx-2 d-flex">
+                                    <i class="fa-brands fa-facebook-f m-auto"></i>
+                                </div>
+                                <div class="border border-1 rounded-circle my_social-media mx-2 d-flex">
+                                    <i class="fa-brands fa-google-plus-g m-auto"></i>
+                                </div>
+                                <div class="border border-1 rounded-circle my_social-media mx-2 d-flex">
+                                    <i class="fa-brands fa-twitter m-auto"></i>
+                                </div>
+                                <div class="border border-1 rounded-circle my_social-media mx-2 d-flex">
+                                    <i class="fa-brands fa-linkedin-in m-auto"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-4 my-3">
+                            <h5>ABOUT FREELANCER</h5>
+                            <p class="fw-semibold">
+                                Freelancer is a free to use, open source Bootstrap theme created by <a href="#">Start Bootstrap</a>
+                            </p>
+                        </div>
                     </div>
                 </div>
             </section>
-            <section class="my_petrol-bg">
+            <section class="my_petrol-bg py-3 text-center text-light">
                 <div class="container">
                     <p>Copyright &copy; Your Website 2023</p>
                 </div>
